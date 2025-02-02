@@ -1,67 +1,112 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    font-family: 'Open Sans', Arial, sans-serif;
+    background-color: #f9f9f9;
     margin: 0;
-    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .game-container {
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
+    background-color: #ffffff;
     width: 90%;
-    max-width: 400px;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #333;
 }
 
 .danger-meter {
-    margin: 20px 0;
+    margin-bottom: 20px;
 }
 
-#meter {
+.meter-bar {
     width: 100%;
-    height: 30px;
-    background-color: #ddd;
-    border-radius: 15px;
-    position: relative;
+    background-color: #e0e0e0;
+    border-radius: 5px;
     overflow: hidden;
+    height: 20px;
+    margin-bottom: 5px;
 }
 
-#dial {
+#meter-fill {
     height: 100%;
-    background-color: red;
-    width: 0;
-    border-radius: 15px;
-    transition: width 0.5s;
+    width: 0%;
+    background-color: green;
+    transition: width 0.3s ease-in-out;
+}
+
+#danger-text {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+#question {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #333;
 }
 
 .btn-grid {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 10px;
-    margin-top: 20px;
 }
 
-button {
-    padding: 10px;
+.btn-grid button {
+    padding: 10px 15px;
     font-size: 1rem;
+    background-color: #1e90ff;
+    color: #ffffff;
     border: none;
     border-radius: 5px;
-    background-color: #007bff;
-    color: white;
+    flex: 1 1 calc(50% - 20px);
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #0056b3;
+.btn-grid button:hover {
+    background-color: #1c86ee;
+}
+
+.btn-grid button.correct {
+    background-color: #28a745;
+}
+
+.btn-grid button.wrong {
+    background-color: #dc3545;
 }
 
 #result {
     margin-top: 20px;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    color: #333;
+}
+
+#start-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #1e90ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#start-btn:hover {
+    background-color: #1c86ee;
+}
+
+@media (max-width: 600px) {
+    .btn-grid button {
+        flex: 1 1 100%;
+    }
 }
