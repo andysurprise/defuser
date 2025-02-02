@@ -1,0 +1,92 @@
+[
+    {
+        "question": "Does every non-trivial zero of the Riemann zeta function lie on the critical line?",
+        "answers": [
+            { "text": "Riemann Hypothesis", "correct": true },
+            { "text": "Navier-Stokes Existence and Smoothness", "correct": false },
+            { "text": "P vs NP Problem", "correct": false },
+            { "text": "Yang-Mills Existence and Mass Gap", "correct": false }
+        ]
+    },
+    {
+        "question": "Do solutions to the Navier-Stokes equations always exist and are they smooth?",
+        "answers": [
+            { "text": "Navier-Stokes Existence and Smoothness", "correct": true },
+            { "text": "Riemann Hypothesis", "correct": false },
+            { "text": "P vs NP Problem", "correct": false },
+            { "text": "Yang-Mills Existence and Mass Gap", "correct": false }
+        ]
+    },
+    {
+        "question": "Can every problem whose solution can be quickly verified by a computer also be quickly solved by a computer?",
+        "answers": [
+            { "text": "P vs NP Problem", "correct": true },
+            { "text": "Riemann Hypothesis", "correct": false },
+            { "text": "Navier-Stokes Existence and Smoothness", "correct": false },
+            { "text": "Yang-Mills Existence and Mass Gap", "correct": false }
+        ]
+    },
+    {
+        "question": "Does a quantum Yang-Mills theory exist with a mass gap?",
+        "answers": [
+            { "text": "Yang-Mills Existence and Mass Gap", "correct": true },
+            { "text": "Riemann Hypothesis", "correct": false },
+            { "text": "Navier-Stokes Existence and Smoothness", "correct": false },
+            { "text": "P vs NP Problem", "correct": false }
+        ]
+    },
+    {
+        "question": "Can every even integer greater than 2 be expressed as the sum of two prime numbers?",
+        "answers": [
+            { "text": "Goldbach's Conjecture", "correct": true },
+            { "text": "Riemann Hypothesis", "correct": false },
+            { "text": "Navier-Stokes Existence and Smoothness", "correct": false },
+            { "text": "P vs NP Problem", "correct": false }
+        ]
+    },
+    {
+        "question": "Are there infinitely many pairs of prime numbers that have a difference of 2?",
+        "answers": [
+            { "text": "Twin Prime Conjecture", "correct": true },
+            { "text": "Riemann Hypothesis", "correct": false },
+            { "text": "Navier-Stokes Existence and Smoothness", "correct": false },
+            { "text": "P vs NP Problem", "correct": false }
+        ]
+    },
+    {
+        "question": "Does the Collatz sequence reach 1 for all positive integer inputs?",
+        "answers": [
+            { "text": "Collatz Conjecture", "correct": true },
+            { "text": "Riemann Hypothesis", "correct": false },
+            { "text": "Navier-Stokes Existence and Smoothness", "correct": false },
+            { "text": "P vs NP Problem", "correct": false }
+        ]
+    },
+    {
+        "question": "Can every map be colored using only four colors such that no two adjacent regions share the same color?",
+        "answers": [
+            { "text": "Four Color Theorem", "correct": true },
+            { "text": "Riemann Hypothesis", "correct": false },
+            { "text": "Navier-Stokes Existence and Smoothness", "correct": false },
+            { "text": "P vs NP Problem", "correct": false }
+        ]
+    },
+    {
+        "question": "Does every Hodge class on a smooth projective algebraic variety over the complex numbers come from an algebraic cycle?",
+        "answers": [
+            { "text": "Hodge Conjecture", "correct": true },
+            { "text": "Riemann Hypothesis", "correct": false },
+            { "text": "Navier-Stokes Existence and Smoothness", "correct": false },
+            { "text": "P vs NP Problem", "correct": false }
+        ]
+    },
+    {
+        "question": "Is every simply connected, closed 3-manifold homeomorphic to the 3-sphere?",
+        "answers": [
+            { "text": "Poincaré Conjecture (proved)", "correct": true },
+            { "text": "Riemann Hypothesis", "correct": false },
+            { "text": "Navier-Stokes Existence and Smoothness", "correct": false },
+            { "text": "P vs NP Problem", "correct": false }
+        ]
+    }
+]
